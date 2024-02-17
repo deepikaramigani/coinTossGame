@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.coin-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #a35200;
+}
+.description {
+  color: #334155;
+  font-weight: bold;
+}
+.button {
+  background-color: #f9d423;
+  color: #a35200;
+  padding: 10px;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  color: #475569;
+}
+.toss-result {
+  width: 150px;
+  margin-bottom: 20px;
+}
